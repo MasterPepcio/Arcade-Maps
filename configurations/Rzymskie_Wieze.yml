@@ -1,0 +1,41 @@
+about:
+  name: Rzymskie Wieze
+  description:
+  type: BLITZ
+  version: 1.0
+  authors: TheMolkaPL
+  max-players: 10
+  min-players: 1
+spawn-kit:
+  items: [272, 261, 322, 262, 262, 292]
+  amount: [1, 1, 1, 64, 64, 16]
+time-locker: 0
+build:
+  allow: false
+  x-max: 0
+  y-max: 0
+  z-max: 0
+  x-min: 0
+  y-min: 0
+  z-min: 0
+spawns:
+  spawn-protection: 0
+  blue:
+    x: 26.5
+    y: 16
+    z: -25.5
+    yaw: 0
+    pitch: 0
+  observer:
+    x: 30.5
+    y: 32
+    z: 30.5
+    yaw: 0
+    pitch: 0
+  red:
+    x: -25.5
+    y: 16
+    z: 26.5
+    yaw: 0
+    pitch: 0
+allowed-mobs:

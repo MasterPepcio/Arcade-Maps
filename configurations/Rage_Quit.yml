@@ -1,0 +1,41 @@
+about:
+  name: Rage Quit
+  description:
+  type: BLITZ
+  version: 1.0
+  authors: TheMolkaPL
+  max-players: 10
+  min-players: 1
+spawn-kit:
+  items: [268, 261, 262, 260]
+  amount: [1, 1, 16, 16]
+time-locker: 0
+build:
+  allow: false
+  x-max: 0
+  y-max: 0
+  z-max: 0
+  x-min: 0
+  y-min: 0
+  z-min: 0
+spawns:
+  spawn-protection: 0
+  blue:
+    x: -11
+    y: 8
+    z: 19
+    yaw: 0
+    pitch: 0
+  observer:
+    x: 0
+    y: 32
+    z: 0
+    yaw: 0
+    pitch: 0
+  red:
+    x: 12
+    y: 8
+    z: -18
+    yaw: 0
+    pitch: 0
+allowed-mobs:

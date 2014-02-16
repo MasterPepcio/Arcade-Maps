@@ -1,0 +1,37 @@
+about:
+  name: Kopalnia
+  description: Opuszczona kopalnia wegla brunatnego
+  type: DESTROY_THE_MONUMENT
+  version: 1.0
+  max-players: 19
+  authors: Skowron
+  min-players: 5
+spawn-kit:
+  items: [272, 261, 278, 5, 5, 20, 262, 262, 320]
+  amount: [1, 1, 1, 64, 64, 64, 64, 64, 32]
+time-locker: 0
+build:
+  allow: true
+  x-max: 130
+  y-max: 42
+  z-max: 134
+  x-min: -132
+  y-min: 0
+  z-min: -128
+spawns:
+  observer:
+    x: -1
+    y: 46
+    z: 3
+  red:
+    x: -28
+    y: 30
+    z: -37
+  blue:
+    x: 26
+    y: 30
+    z: 43
+  spawn-protection: 6
+allowed-mobs:
+- SPIDER
+- BAT

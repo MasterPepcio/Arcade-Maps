@@ -1,0 +1,42 @@
+about:
+  name: Wodne Wyscigi
+  description:
+  type: TEAMDEATHMATCH
+  version: 1.0
+  authors: TheMolkaPL
+  max-players: 10
+  min-players: 2
+spawn-kit:
+  items: [272, 261, 322, 260, 262, 262]
+  amount: [1, 1, 1, 16, 64, 64]
+time-locker: 0
+build:
+  allow: false
+  x-max: -333
+  y-max: 18
+  z-max: 519
+  x-min: -419
+  y-min: 0
+  z-min: 489
+spawns:
+  spawn-protection: 4
+  blue:
+    x: -345.5
+    y: 8.0
+    z: 504.5
+    yaw: 0
+    pitch: 0
+  observer:
+    x: -375.5
+    y: 8
+    z: 477.5
+    yaw: 0
+    pitch: 0
+  red:
+    x: -405.5
+    y: 8
+    z: 504.5
+    yaw: 0
+    pitch: 0
+allowed-mobs:
+- SQUID

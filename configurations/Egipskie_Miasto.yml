@@ -1,0 +1,43 @@
+about:
+  name: Egipskie Miasto
+  description:
+  type: TEAMDEATHMATCH
+  version: 1.0
+  authors: TheMolkaPL
+  max-players: 10
+  min-players: 2
+spawn-kit:
+  items: [272, 261, 322, 262, 262, 320]
+  amount: [1, 1, 2, 64, 64, 32]
+time-locker: 0
+build:
+  allow: false
+  x-max: 0
+  y-max: 0
+  z-max: 0
+  x-min: 0
+  y-min: 0
+  z-min: 0
+spawns:
+  spawn-protection: 4
+  blue:
+    x: 28.5
+    y: 7
+    z: -27.5
+    yaw: 0
+    pitch: 0
+  observer:
+    x: -43.5
+    y: 15
+    z: -43.5
+    yaw: 0
+    pitch: 0
+  red:
+    x: -27.5
+    y: 7
+    z: 28.5
+    yaw: 0
+    pitch: 0
+allowed-mobs:
+- PIG
+- COW

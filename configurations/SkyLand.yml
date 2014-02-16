@@ -1,0 +1,55 @@
+about:
+  name: SkyLand
+  description: Podniebna wojna o monumenty
+  type: DESTROY_THE_MONUMENT
+  version: 1.0
+  max-players: 19
+  authors: Skowron
+  min-players: 3
+spawn-kit:
+  items: null
+  amount: null
+time-locker: 0
+build:
+  allow: true
+  x-max: 19
+  y-max: 90
+  z-max: 12
+  x-min: -129
+  y-min: 60
+  z-min: -89
+spawns:
+  blue:
+    x: 12
+    y: 77
+    z: -36
+  observer:
+    x: -55
+    y: 100
+    z: -97
+  red:
+    x: -122
+    y: 77
+    z: -42
+  spawn-protection: 7
+game-settings:
+  monuments:
+    blue:
+      a:
+        x: -2
+        y: 75
+        z: 1
+      b:
+        x: -2
+        y: 74
+        z: 1
+    red:
+      a:
+        x: -108
+        y: 75
+        z: -79
+      b:
+        x: -108
+        y: 74
+        z: -79
+allowed-mobs:
