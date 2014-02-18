@@ -1,0 +1,31 @@
+about:
+  type: PAINTBALL
+  version: 1.0
+  max-players: 10
+  authors: mimirower45 & Skowron
+spawn-kit:
+  items: [1, 2, 4, 5, 6]
+  amount: [64, 64, 32, 64, 16]
+time-locker: 0
+build:
+  allow: false
+  x-max: -24
+  y-max: 20
+  z-max: -31
+  x-min: -24
+  y-min: 20
+  z-min: -31
+spawns:
+  observer:
+    x: 0
+    y: 26
+    z: 0
+  red:
+    x: -24
+    y: 8
+    z: -2
+  blue:
+    x: -19
+    y: 8
+    z: -62
+  spawn-protection: 3

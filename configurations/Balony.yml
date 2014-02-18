@@ -1,0 +1,40 @@
+about:
+  name: Balony
+  description:
+  type: BLITZ
+  version: 1.0
+  authors: Aimer, BlackCreep & SGH_PL
+  min-players: 1
+  max-players: 6
+spawn-kit:
+  items: [1, 2, 4, 5, 6]
+  amount: [64, 64, 32, 64, 16]
+time-locker: 0
+build:
+  allow: false
+  x-max: 53
+  y-max: 140
+  z-max: 84
+  x-min: -70
+  y-min: 0
+  z-min: 0
+spawns:
+  spawn-protection: 0
+  blue:
+    x: -36
+    y: 73
+    z: 29
+    yaw: 0
+    pitch: 0
+  observer:
+    x: -3
+    y: 74
+    z: 0
+    yaw: 0
+    pitch: 0
+  red:
+    x: 29
+    y: 73
+    z: 45
+    yaw: 0
+    pitch: 0
