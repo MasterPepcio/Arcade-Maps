@@ -1,0 +1,113 @@
+about:
+  name: Tank
+  description: Walka czolgów
+  type: CAPTURE_THE_WOOL
+  version: 1.0
+  authors: ChefTube11, SGH_PL & TheMolkaPL
+  max-players: 19
+  min-players: 5
+spawn-kit:
+  items: null
+  amount: null
+time-locker: 0
+build:
+  allow: true
+  x-max: 92
+  y-max: 25
+  z-max: 69
+  x-min: -91
+  y-min: 0
+  z-min: 30
+spawns:
+  blue:
+    x: 56.0
+    y: 4.0
+    z: 50.0
+    yaw: 0
+    pitch: 0
+  observer:
+    x: 0.5
+    y: 20
+    z: 0.5
+    yaw: 0
+    pitch: 0
+  red:
+    x: -55.0
+    y: 4.0
+    z: 50.0
+    yaw: 0
+    pitch: 0
+game-settings:
+  wools:
+    blue:
+      a:
+        x:
+        y:
+        z:
+      b:
+        x:
+        y:
+        z:
+    red:
+      a:
+        x:
+        y:
+        z:
+      b:
+        x:
+        y:
+        z:
+allowed-mobs:
+regions:
+  spawn-blue:
+    max-pos:
+      x: 64
+      y: 9
+      z: 59
+    min-pos:
+      x: 46
+      y: 0
+      z: 40
+    flags:
+      ONLY_ENTRY: BLUE
+      BUILD: false
+      INTERACT: true
+  spawn-red:
+    max-pos:
+      x: -46
+      y: 9
+      z: 59
+    min-pos:
+      x: -64
+      y: 0
+      z: 40
+    flags:
+      ONLY_ENTRY: RED
+      BUILD: false
+      INTERACT: true
+  blue-bases:
+    max-pos:
+      x: 92
+      y: 25
+      z: 96
+    min-pos:
+      x: 82
+      y: 0
+      z: 30
+    flags:
+      ONLY_ENTRY: RED
+      BUILD: false
+      INTERACT: true
+  red-bases:
+    max-pos:
+      x: -82
+      y: 25
+      z: 96
+    min-pos:
+      x: -92
+      y: 0
+      z: 30
+    flags:
+      ONLY_ENTRY: BLUE
+      BUILD: false
+      INTERACT: true
